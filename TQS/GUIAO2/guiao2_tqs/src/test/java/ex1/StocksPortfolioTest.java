@@ -1,9 +1,8 @@
-package guiao2;
+package ex1;
 //Junit
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import static org.junit.jupiter.api.Assertions.*;
 
 //Hamcrest
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -13,7 +12,6 @@ import static org.hamcrest.core.Is.is;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
@@ -46,7 +44,7 @@ class StocksPortfolioTest {
 
         // exemplo que vai dar erro
 
-        // Mockito.verify(mockMarket, Mockito.times(5)).getPrice(Mockito.anyString());
+        //Mockito.verify(mockMarket, Mockito.times(5)).getPrice(Mockito.anyString());
 
     }
 }

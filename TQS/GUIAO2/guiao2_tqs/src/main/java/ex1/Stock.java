@@ -1,4 +1,4 @@
-package guiao2;
+package ex1;
 
 public class Stock {
     private String name;
