@@ -51,7 +51,7 @@ public class TravelAgencyTestTest {
     driver.findElement(By.cssSelector(".btn-primary")).click();
     driver.findElement(By.cssSelector("tr:nth-child(3) .btn")).click();
     driver.findElement(By.id("inputName")).click();
-    driver.findElement(By.id("inputName")).sendKeys("Eleandro");
+    driver.findElement(By.id("inputName")).sendKeys("Frederico");
     driver.findElement(By.id("address")).click();
     driver.findElement(By.id("address")).sendKeys("Rua");
     driver.findElement(By.id("address")).sendKeys(Keys.DOWN);
@@ -79,7 +79,7 @@ public class TravelAgencyTestTest {
     driver.findElement(By.id("creditCardYear")).click();
     driver.findElement(By.id("creditCardYear")).sendKeys("2024");
     driver.findElement(By.id("nameOnCard")).click();
-    driver.findElement(By.id("nameOnCard")).sendKeys("Eleandro Laureano");
+    driver.findElement(By.id("nameOnCard")).sendKeys("Frederico Avó");
     driver.findElement(By.cssSelector(".btn-primary")).click();
     driver.findElement(By.cssSelector(".hero-unit")).click();
     //assertThat(driver.findElement(By.cssSelector("h1")).getText(), is("Thank you for your purchase today"));
