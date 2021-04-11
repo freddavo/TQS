@@ -51,7 +51,7 @@ public class TravelAgencyTestTest {
     driver.findElement(By.cssSelector(".btn-primary")).click();
     driver.findElement(By.cssSelector("tr:nth-child(3) .btn")).click();
     driver.findElement(By.id("inputName")).click();
-    driver.findElement(By.id("inputName")).sendKeys("Eleandro");
+    driver.findElement(By.id("inputName")).sendKeys("Frederico");
     driver.findElement(By.id("address")).click();
     driver.findElement(By.id("address")).sendKeys("Rua");
     driver.findElement(By.id("address")).sendKeys(Keys.DOWN);
