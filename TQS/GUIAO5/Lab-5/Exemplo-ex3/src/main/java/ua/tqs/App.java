@@ -1,9 +1,6 @@
 package ua.tqs;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
